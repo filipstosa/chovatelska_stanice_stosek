@@ -87,3 +87,23 @@ iframe {
 .pece-text {
 max-width: 40rem;
 }
+.banner_o_nas_bg {
+    background-image: url(../images/kralici-s-rodokmenem.webp);
+    background-color: rgba(0, 0, 0, 0.41);
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.banner_o_nas_blur {
+    backdrop-filter: blur(20px);
+}
+.form-object {
+    max-width: 30rem;
+}
+@media (min-width: 768px) {
+    .kde {
+        max-width: 60rem;
+    }
+}
